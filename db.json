@@ -1,0 +1,125 @@
+{
+  "Customer": [
+    {
+      "CustomerID": 1,
+      "Name": "Tim"
+    },
+    {
+      "CustomerID": 2,
+      "Name": "Jack"
+    },
+    {
+      "CustomerID": 3,
+      "Name": "mary"
+    }
+  ],
+  "Item": [
+    {
+      "ItemID": 1,
+      "Name": "Butter Chicken",
+      "Price": 12
+    },
+    {
+      "ItemID": 2,
+      "Name": "Pepper Chicken",
+      "Price": 14
+    },
+    {
+      "ItemID": 3,
+      "Name": "Garlic Chicken",
+      "Price": 10
+    }
+  ],
+  "Order": [
+    {
+      "OrderID": null,
+      "OrderNo": "930304",
+      "CustomerID": 1,
+      "PMethod": "Cash",
+      "GTotal": 10,
+      "OrderItems": [
+        {
+          "OrderItemID": null,
+          "ItemName": "Garlic Chicken",
+          "ItemID": "3",
+          "Price": 10,
+          "Quantity": "1",
+          "Total": 10
+        }
+      ],
+      "id": 1
+    },
+    {
+      "OrderID": null,
+      "OrderNo": "889088",
+      "CustomerID": 2,
+      "PMethod": "Cash",
+      "GTotal": 12,
+      "OrderItems": [
+        {
+          "OrderItemID": null,
+          "ItemName": "Butter Chicken",
+          "ItemID": "1",
+          "Price": 12,
+          "Quantity": "1",
+          "Total": 12
+        }
+      ],
+      "id": 2
+    },
+    {
+      "OrderID": null,
+      "OrderNo": "489531",
+      "CustomerID": 3,
+      "PMethod": "Cash",
+      "GTotal": 28,
+      "OrderItems": [
+        {
+          "OrderItemID": null,
+          "ItemName": "Pepper Chicken",
+          "ItemID": "2",
+          "Price": 14,
+          "Quantity": "2",
+          "Total": 28
+        }
+      ],
+      "id": 3
+    },
+    {
+      "OrderID": null,
+      "OrderNo": "363807",
+      "CustomerID": "cust.CustomerID",
+      "PMethod": "Cash",
+      "GTotal": 56,
+      "OrderItems": [
+        {
+          "OrderItemID": null,
+          "ItemName": "Pepper Chicken",
+          "ItemID": "2",
+          "Price": 14,
+          "Quantity": "4",
+          "Total": 56
+        }
+      ],
+      "id": 4
+    },
+    {
+      "OrderID": null,
+      "OrderNo": "503172",
+      "CustomerID": "cust.CustomerID",
+      "PMethod": "Card",
+      "GTotal": 56,
+      "OrderItems": [
+        {
+          "OrderItemID": null,
+          "ItemName": "Pepper Chicken",
+          "ItemID": "2",
+          "Price": 14,
+          "Quantity": "4",
+          "Total": 56
+        }
+      ],
+      "id": 5
+    }
+  ]
+}
